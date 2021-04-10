@@ -1,0 +1,97 @@
+body {
+    background-color: antiquewhite;
+    font-family: Helvetica;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+ }
+
+h2 {
+    color: tomato;
+    text-align: center;
+}
+.col1 {
+    height: 150px;
+    width: 28%;
+    background-color: brown;
+    color: blanchedalmond;
+    border: 3px solid black;
+    padding: 20px 10px 0 10px;
+    margin: 10px;
+    float: left;
+    position: relative;
+
+}
+.col2 {
+    
+    height: 150px;
+    width: 28%;
+    background-color: cornflowerblue;
+    color: red;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px 10px 0 10px;
+    float: left;
+    position: relative;
+
+    
+}
+.col3 {
+    width: 28%;
+    height: 150px;
+    background-color: yellow;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px 10px 0 10px;
+    text-align: justify;
+    float: left;
+    position: relative;
+    
+}
+h3 {
+    border: 3px solid black;
+    text-align: center;
+    width: 100px;
+    padding-top: 0;
+    margin: 0;
+    background-color: aqua;
+    color: darkblue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@media (min-width: 992px){
+    .col1 {
+        width: 29%;
+    }
+    .col2 {
+        width: 29%px;
+    }
+    .col3 {
+        width: 29%px;
+
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .col1 {
+        width: 40%;
+    }
+    .col2 {
+        width: 40%;
+    }
+    .col3 {
+        width: 87%;
+    }
+}
+@media (max-width:767px){
+    .col1{
+        width: 90%;
+    }
+    .col2{
+        width: 90%;
+    }
+    .col3{
+        width: 90%;
+    }
+}
